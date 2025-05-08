@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Web Personal</title>
+</head>
+<body style="background-color: #ffe6f0; font-family: Arial, sans-serif; margin: 20px;">
+
+    <h1 style="color: #cc0066; font-size: 32px;" onclick="alert('¡Hola! Soy Belén 😊')">
+        María Belén La Cava
+    </h1>
+
+    <h2 style="color: #e60073;">Sobre mí</h2>
+
+    <p style="font-size: 16px; color: #4d004d;" onmouseover="this.style.color='#cc3399'">
+        Estudio Ingeniería en Sistemas y estoy en 4to año. También soy profesora de danzas clásicas y folklóricas. Trabajo como analista de sistemas y profesora de danzas. Me gusta combinar la tecnología con el arte y aprender cosas nuevas.
+    </p>
+
+    <h3 style="color: #cc0066;">Mis intereses</h3>
+    <ul style="color: #800040; font-size: 15px;">
+        <li>Bailar</li>
+        <li>Programar</li>
+        <li>Enseñar</li>
+    </ul>
+
+    <h3 style="color: #cc0066;">Materias del semestre</h3>
+    <table border="1" cellpadding="6" style="background-color: #fff0f5; color: #660033;">
+        <tr>
+            <th>Materia</th>
+            <th>Profesor</th>
+            <th>Horario</th>
+        </tr>
+        <tr>
+            <td>Desarrollo y Arquitecturas Web</td>
+            <td>Gustavo Escandell</td>
+            <td>Jueves 19:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Organización y Gestión Empresarial</td>
+            <td>Jorge Scali</td>
+            <td>Viernes 19:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Base de Datos Avanzada</td>
+            <td>Sergio Herrera</td>
+            <td>Lunes 19:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Metodologías Ágiles</td>
+            <td>Federico Brest</td>
+            <td>Martes 19:00 - 23:00</td>
+        </tr>
+    </table>
+
+    <h3 style="color: #cc0066;">Mi imagen representativa</h3>
+    <img src="compu_zapatillas.png" alt="Computadora y zapatillas de punta" style="margin: 10px 0; width: 300px;">
+
+    <p>
+        <a href="https://www.google.com" target="_blank" style="color: #cc3399;">Visitar Google</a>
+    </p>
+
+    <h3 style="color: #cc0066;">Formulario de contacto</h3>
+
+    <form style="background-color: #fff0f5; padding: 10px; width: 350px; color: #660033;">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" style="width: 100%; margin-bottom: 10px;"><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" style="width: 100%; margin-bottom: 10px;"><br>
+
+        <label>Género:</label><br>
+        <input type="radio" id="femenino" name="genero" value="Femenino">
+        <label for="femenino">Femenino</label><br>
+
+        <input type="radio" id="masculino" name="genero" value="Masculino">
+        <label for="masculino">Masculino</label><br>
+
+        <input type="radio" id="otro" name="genero" value="Otro">
+        <label for="otro">Otro</label><br><br>
+
+        <label for="materia">Materia favorita:</label><br>
+        <select id="materia" name="materia" style="width: 100%; margin-bottom: 10px;">
+            <option value="web">Desarrollo y Arquitecturas Web</option>
+            <option value="gestion">Organización y Gestión Empresarial</option>
+            <option value="bd">Base de Datos Avanzada</option>
+            <option value="agiles">Metodologías Ágiles</option>
+        </select><br>
+
+        <input type="submit" value="Enviar" style="background-color: #cc3399; color: white; border: none; padding: 8px 16px;">
+    </form>
+
+</body>
+</html>
